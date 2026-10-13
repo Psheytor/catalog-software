@@ -1,0 +1,20 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "login": "ivanov",
+            "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+            "role": "employee",
+            "name": "Иван Иванов",
+            "pc_ids": [1, 2]
+        },
+        {
+            "id": 2,
+            "login": "admin",
+            "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+            "role": "admin",
+            "name": "Администратор",
+            "pc_ids": []
+        }
+    ]
+}

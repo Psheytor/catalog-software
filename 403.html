@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>403 | Доступ запрещён</title>
+    <meta name="description" content="У вас нет доступа к этой странице">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ПО Каталог</div>
+            <ul class="nav-menu">
+                <li><a href="/index.php">Главная</a></li>
+                <li><a href="/catalog.php">Каталог ПО</a></li>
+                <li><a href="/login.php">Вход</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="error-page">
+            <div class="error-code">403</div>
+            <h1>Доступ запрещён</h1>
+            <div class="error-icon">    </div>
+            <p class="error-message">
+                У вас нет прав для просмотра этой страницы.<br>
+                Возможно, требуется авторизация или ваша учётная запись не имеет доступа к данному разделу.
+            </p>
+            <div class="error-actions">
+                <a href="/index.php" class="btn">На главную</a>
+                <a href="/login.php" class="btn btn-primary">Войти в систему</a>
+                <a href="javascript:history.back()" class="btn btn-secondary">Вернуться назад</a>
+            </div>
+            <div class="error-suggestion">
+                <p>Если вы считаете, что это ошибка, обратитесь к администратору.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Каталог ПО. Все права защищены.</p>
+        <p><a href="/index.php">Вернуться на главную</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+    "installs": [
+        {
+            "id": 1,
+            "software_id": 1,
+            "pc_id": 1,
+            "pc_name": "ПК-001",
+            "responsible": "Иванов И.",
+            "install_date": "2025-01-10"
+        },
+        {
+            "id": 2,
+            "software_id": 1,
+            "pc_id": 2,
+            "pc_name": "ПК-002",
+            "responsible": "Петров П.",
+            "install_date": "2025-02-15"
+        },
+        {
+            "id": 3,
+            "software_id": 2,
+            "pc_id": 1,
+            "pc_name": "ПК-001",
+            "responsible": "Иванов И.",
+            "install_date": "2025-01-20"
+        },
+        {
+            "id": 4,
+            "software_id": 4,
+            "pc_id": 1,
+            "pc_name": "ПК-001",
+            "responsible": "Иванов И.",
+            "install_date": "2025-03-10"
+        },
+        {
+            "id": 5,
+            "software_id": 6,
+            "pc_id": 2,
+            "pc_name": "ПК-002",
+            "responsible": "Петров П.",
+            "install_date": "2025-02-01"
+        },
+        {
+            "id": 6,
+            "software_id": 8,
+            "pc_id": 1,
+            "pc_name": "ПК-001",
+            "responsible": "Иванов И.",
+            "install_date": "2025-04-05"
+        }
+    ]
+}

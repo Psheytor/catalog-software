@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | Страница не найдена</title>
+    <meta name="description" content="Запрашиваемая страница не существует">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ПО Каталог</div>
+            <ul class="nav-menu">
+                <li><a href="/index.php">Главная</a></li>
+                <li><a href="/catalog.php">Каталог ПО</a></li>
+                <li><a href="/login.php">Вход</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="error-page">
+            <div class="error-code">404</div>
+            <h1>Страница не найдена</h1>
+            <div class="error-icon"></div>
+            <p class="error-message">
+                К сожалению, запрашиваемая страница не существует, была перемещена или удалена.<br>
+                Проверьте правильность адреса или воспользуйтесь поиском.
+            </p>
+            <div class="error-actions">
+                <a href="/index.php" class="btn">На главную</a>
+                <a href="/catalog.php" class="btn btn-primary">Перейти в каталог</a>
+                <a href="javascript:history.back()" class="btn btn-secondary">Вернуться назад</a>
+            </div>
+            <div class="error-search">
+                <h3>Поиск по сайту</h3>
+                <form method="GET" action="/catalog.php" class="search-form">
+                    <input type="text" name="search" placeholder="Введите название ПО..." aria-label="Поиск">
+                    <button type="submit">Найти</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Каталог ПО. Все права защищены.</p>
+        <p><a href="/index.php">Вернуться на главную</a> | <a href="/catalog.php">Каталог ПО</a></p>
+    </footer>
+</body>
+</html>

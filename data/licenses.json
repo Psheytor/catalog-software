@@ -1,0 +1,84 @@
+{
+    "licenses": [
+        {
+            "id": 1,
+            "software_id": 1,
+            "license_key": "WIN-XXXX-XXXX",
+            "max_installs": 10,
+            "expiry_date": "2026-12-31",
+            "status": "active"
+        },
+        {
+            "id": 2,
+            "software_id": 2,
+            "license_key": "OFF-XXXX-XXXX",
+            "max_installs": 5,
+            "expiry_date": "2026-06-15",
+            "status": "active"
+        },
+        {
+            "id": 3,
+            "software_id": 3,
+            "license_key": "ADOBE-XXXX",
+            "max_installs": 3,
+            "expiry_date": "2026-01-20",
+            "status": "expired"
+        },
+        {
+            "id": 4,
+            "software_id": 4,
+            "license_key": "KAS-KEY-12345",
+            "max_installs": 50,
+            "expiry_date": "2026-10-01",
+            "status": "active"
+        },
+        {
+            "id": 5,
+            "software_id": 5,
+            "license_key": "ORA-DB-54321",
+            "max_installs": 2,
+            "expiry_date": "2026-11-30",
+            "status": "active"
+        },
+        {
+            "id": 6,
+            "software_id": 6,
+            "license_key": "JET-BRAINS-001",
+            "max_installs": 10,
+            "expiry_date": "2026-05-01",
+            "status": "active"
+        },
+        {
+            "id": 7,
+            "software_id": 7,
+            "license_key": "AUTO-CAD-2025",
+            "max_installs": 4,
+            "expiry_date": "2025-12-01",
+            "status": "expired"
+        },
+        {
+            "id": 8,
+            "software_id": 8,
+            "license_key": "MS-VS-2022-KEY",
+            "max_installs": 15,
+            "expiry_date": "2026-09-15",
+            "status": "active"
+        },
+        {
+            "id": 9,
+            "software_id": 9,
+            "license_key": "DRWEB-ENT-2025",
+            "max_installs": 30,
+            "expiry_date": "2026-04-20",
+            "status": "active"
+        },
+        {
+            "id": 10,
+            "software_id": 10,
+            "license_key": "1C-PIN-CODE-001",
+            "max_installs": 5,
+            "expiry_date": "2025-11-10",
+            "status": "expired"
+        }
+    ]
+}

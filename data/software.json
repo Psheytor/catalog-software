@@ -1,0 +1,114 @@
+{
+    "software": [
+        {
+            "id": 1,
+            "name": "Windows 11 Pro",
+            "slug": "windows-11-pro",
+            "manufacturer": "Microsoft",
+            "version": "23H2",
+            "type": "ОС",
+            "description": "Операционная система для рабочих станций с расширенными функциями безопасности",
+            "image": "/images/products/windows.png",
+            "license_id": 1
+        },
+        {
+            "id": 2,
+            "name": "Microsoft Office 2021",
+            "slug": "microsoft-office-2021",
+            "manufacturer": "Microsoft",
+            "version": "2021",
+            "type": "Офисное",
+            "description": "Пакет офисных приложений: Word, Excel, PowerPoint, Outlook",
+            "image": "/images/products/office.png",
+            "license_id": 2
+        },
+        {
+            "id": 3,
+            "name": "Adobe Photoshop",
+            "slug": "adobe-photoshop",
+            "manufacturer": "Adobe",
+            "version": "2024",
+            "type": "Специальное",
+            "description": "Профессиональный графический редактор для обработки изображений",
+            "image": "/images/products/photoshop.png",
+            "license_id": 3
+        },
+        {
+            "id": 4,
+            "name": "Kaspersky Endpoint Security",
+            "slug": "kaspersky-endpoint-security",
+            "manufacturer": "Kaspersky",
+            "version": "12.0",
+            "type": "Антивирус",
+            "description": "Комплексная защита корпоративных устройств от угроз",
+            "image": "/images/products/kaspersky.png",
+            "license_id": 4
+        },
+        {
+            "id": 5,
+            "name": "Oracle Database",
+            "slug": "oracle-database",
+            "manufacturer": "Oracle",
+            "version": "19c",
+            "type": "СУБД",
+            "description": "Мощная реляционная система управления базами данных",
+            "image": "/images/products/oracle.png",
+            "license_id": 5
+        },
+        {
+            "id": 6,
+            "name": "IntelliJ IDEA Ultimate",
+            "slug": "intellij-idea-ultimate",
+            "manufacturer": "JetBrains",
+            "version": "2024.3",
+            "type": "Разработка",
+            "description": "Интегрированная среда разработки для Java, Kotlin и других языков",
+            "image": "/images/products/intellij.png",
+            "license_id": 6
+        },
+        {
+            "id": 7,
+            "name": "AutoCAD",
+            "slug": "autocad",
+            "manufacturer": "Autodesk",
+            "version": "2025",
+            "type": "Специальное",
+            "description": "Система автоматизированного проектирования для создания чертежей",
+            "image": "/images/products/autocad.png",
+            "license_id": 7
+        },
+        {
+            "id": 8,
+            "name": "Microsoft Visual Studio",
+            "slug": "microsoft-visual-studio",
+            "manufacturer": "Microsoft",
+            "version": "2022",
+            "type": "Разработка",
+            "description": "Интегрированная среда разработки для .NET и C++",
+            "image": "/images/products/visualstudio.png",
+            "license_id": 8
+        },
+        {
+            "id": 9,
+            "name": "Dr.Web Enterprise",
+            "slug": "drweb-enterprise",
+            "manufacturer": "Dr.Web",
+            "version": "12.0",
+            "type": "Антивирус",
+            "description": "Антивирусная защита для корпоративных сетей",
+            "image": "/images/products/drweb.png",
+            "license_id": 9
+        },
+        {
+            "id": 10,
+            "name": "1С:Предприятие",
+            "slug": "1c-predpriyatie",
+            "manufacturer": "1C",
+            "version": "8.3",
+            "type": "Специальное",
+            "description": "Система программ для автоматизации деятельности организаций",
+            "image": "/images/products/1c.png",
+            "license_id": 10
+        }
+    ]
+}
